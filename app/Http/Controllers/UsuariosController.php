@@ -15,6 +15,8 @@ class UsuariosController extends Controller
             'usuarios.nome',
             'usuarios.password',
             'usuarios.email',
+            'usuarios.telefone1',
+            'usuarios.telefone2',
             'usuarios.created_at AS data_cadastro',
         )->get();
 

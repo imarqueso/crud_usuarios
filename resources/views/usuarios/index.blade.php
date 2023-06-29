@@ -30,7 +30,7 @@
                             <td>{{$usuario->id}}</td>
                             <td>{{$usuario->nome}}</td>
                             <td>{{$usuario->email}}</td>
-                            <td>{{ $usuario->telefone2 ? $usuario->telefone2 : 'Telefone 1 não informado.' }}</td>
+                            <td>{{ $usuario->telefone1 ? $usuario->telefone1 : 'Telefone 1 não informado.' }}</td>
                             <td>{{ $usuario->telefone2 ? $usuario->telefone2 : 'Telefone 2 não informado.' }}</td>
                             <td>{{\Carbon\Carbon::parse($usuario->created_at)->format('d/m/Y')}}</td>
                             <td>
